@@ -1,0 +1,226 @@
+{
+	"id": "ed762415-9eb7-4c33-8e72-bbdd20328a75",
+	"name": "Reqres",
+	"timestamp": "2023-02-17T05:18:46.124Z",
+	"collection_id": "25326998-6c4a42f8-40f1-4bde-9ae2-1feb27f551f5",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 8,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-02-17T05:18:43.092Z",
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "e58aba79-10ee-4aea-8724-ed50b80d5f13",
+			"name": "resource",
+			"url": "https://reqres.in/api/resource",
+			"time": 84,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Response time is less than 100ms": true,
+				"Body is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 100ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				84
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 100ms": true,
+					"Body is correct": true
+				}
+			]
+		},
+		{
+			"id": "83b7209f-850c-44b0-a70d-4545841f7135",
+			"name": "single user",
+			"url": "https://reqres.in/api/users/5",
+			"time": 61,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				61
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f39414e2-37f3-4892-919e-117925e9a2f1",
+			"name": "delete",
+			"url": "https://reqres.in/api/users/5",
+			"time": 435,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				435
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		},
+		{
+			"id": "1a35311c-9638-4589-8f56-c60f5ed8585c",
+			"name": "patch user",
+			"url": "https://reqres.in/api/users/5",
+			"time": 406,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				406
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e2562ca7-bfab-43dd-b0d6-1b2df090a6e3",
+			"name": "login",
+			"url": "https://reqres.in/api/users/login",
+			"time": 430,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				430
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "ef5e5f7b-be0d-4003-b00f-c9e32397e407",
+			"name": "register",
+			"url": "https://reqres.in/api/users/register",
+			"time": 419,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				419
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1835,
+	"collection": {
+		"requests": [
+			{
+				"id": "e58aba79-10ee-4aea-8724-ed50b80d5f13",
+				"method": "GET"
+			},
+			{
+				"id": "83b7209f-850c-44b0-a70d-4545841f7135",
+				"method": "GET"
+			},
+			{
+				"id": "f39414e2-37f3-4892-919e-117925e9a2f1",
+				"method": "DELETE"
+			},
+			{
+				"id": "1a35311c-9638-4589-8f56-c60f5ed8585c",
+				"method": "PATCH"
+			},
+			{
+				"id": "e2562ca7-bfab-43dd-b0d6-1b2df090a6e3",
+				"method": "POST"
+			},
+			{
+				"id": "ef5e5f7b-be0d-4003-b00f-c9e32397e407",
+				"method": "POST"
+			}
+		]
+	}
+}
